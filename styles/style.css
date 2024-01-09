@@ -312,24 +312,33 @@ body{font-family: 'Merriweather', serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
-  padding-right: 100px;
+  padding-right: 500px;
+
 }
 .prod-all{
   display: flex;
+  justify-content: center;
   margin-bottom: 10px;
+  /* margin-left: 100px; */
+  margin-right: 120px;
+  padding-left:0px ;
+}
+.p-img{
+  margin: 10px;
 }
 div>img:hover{
   background-color: antiquewhite;
-  border: 10px antiquewhite solid;
+  border: 5px rgb(233, 10, 10) solid;
+  border-radius: 20px;
 
 }
 .sec-subs{
   padding-top: 100px;
   width: 1320px;
-  height: 616px;
+  height: 516px;
   flex-shrink: 0;
   text-align: center;
-  margin: 100px;
+  margin: 100px; 
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
 }
@@ -337,22 +346,25 @@ div>img:hover{
   width: 150px;
   height: 150px;
   flex-shrink: 0;
+  margin: 0px;
+  padding: 0px;
+
 }
-.subcrp{
+.subscrp{
   color: #070211;
   text-align: center;
   font-family: Merriweather;
-  font-size: 6px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
 }
-.pra5{
+.pra5 {
   color: rgba(7, 2, 17, 0.60);
   text-align: center;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -405,11 +417,12 @@ div>img:hover{
 .addrs{
   color: #FFF;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 40px; 
   padding-top: 80px;
+  padding-right: 0px;
 }
 .contact-both{
   height: 300px;
@@ -418,14 +431,16 @@ div>img:hover{
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+  margin-top: 35px;
 }
 .num-web{
   color: #FFF;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 40px; 
+  margin-top: 67px;
 }
 .call-num{
   padding-top:30px ; 
@@ -433,7 +448,7 @@ div>img:hover{
   justify-content: space-between;
   padding-bottom: 0px;
   margin-bottom:10px;
-  margin-top: 50px;
+  margin-top:15px;
   height: 24px;
   flex-shrink: 0;
   
@@ -449,6 +464,8 @@ div>img:hover{
 .socile-mda{
   display: flex;
   justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 .footr-bottm{
   display: flex;
@@ -464,7 +481,7 @@ div>img:hover{
 .copy-r,.unsubs{
   color: #FFF;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -478,6 +495,15 @@ hr{
   width: 64px;
   height: 64px;
   flex-shrink: 0;
+  margin: 0px;
+  padding: 0px;
+
+  }
+  .contact-both,.addrs{
+    margin-left: 110px;
+  }
+  .contact-both{
+    margin-right: 150px;
   }
   
  
