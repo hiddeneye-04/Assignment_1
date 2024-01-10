@@ -10,7 +10,7 @@ body{font-family: 'Merriweather', serif;
     flex-shrink: 0;
     margin: auto;
    border-radius: 16px;
-    background :linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(/resources/Banner\ Image.png);
+    background :linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Banner\ Image.png");
    
 }
 
@@ -63,7 +63,7 @@ body{font-family: 'Merriweather', serif;
     margin-left: 350px;;
   }
   .party-content{
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(/resources/Vectorrr.png);
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
     flex-shrink: 0;
     display: flex;
     width: 1320px;
@@ -216,7 +216,7 @@ body{font-family: 'Merriweather', serif;
       border: #F00 solid;
       border-radius: 420px;
       border-width: 15px;
-      background-image: url("/resources/Ellipse\ 1.png");
+      background-image: url(../resources/Ellipse\ 1.png);
       background-position: center;
       background-repeat: no-repeat;
    }
@@ -261,7 +261,7 @@ body{font-family: 'Merriweather', serif;
   line-height: 32px; 
 }
 .disc50{
-  background-image: url("/resources/Rectangle\ 2.png");
+  background-image: url("../resources/Rectangle\ 2.png");
   display: flex;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -272,7 +272,7 @@ body{font-family: 'Merriweather', serif;
   width: 429px;
   margin-top:6px;
   margin-right: 91px;
-  background-image: url("/resources/Rectangle\ 1.png");
+  background-image: url("../resources/Rectangle\ 1.png");
   background-repeat: no-repeat;
 }
 .gbox{
